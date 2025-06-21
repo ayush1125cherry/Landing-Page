@@ -31,10 +31,8 @@ Browser Developer Tools:
 Used for debugging and testing responsiveness.
 
 #Output 
-![Image](https://github.com/user-attachments/assets/331bc8c8-83ef-4d01-80d0-a4f8df3de063)
-
 ![Image](https://github.com/user-attachments/assets/dbac8784-a18f-4353-bc6a-82183e961665)
-
+![Image](https://github.com/user-attachments/assets/331bc8c8-83ef-4d01-80d0-a4f8df3de063)
 ![Image](https://github.com/user-attachments/assets/bc8d555d-0dec-4f43-ac39-cea60e7253de)
 
 

@@ -24,7 +24,7 @@ body{
 .LOGO {
   position: absolute;
   top:0;
-  left: 0;
+  left: 3px;
   display: flex;
   align-items: center;
   gap: 10px;

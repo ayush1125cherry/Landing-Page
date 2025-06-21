@@ -1,0 +1,213 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color:beige  ;
+}
+.main img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover; 
+  object-position: top center; 
+}
+.overlay-content{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+.LOGO {
+  position: absolute;
+  top:0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.LOGO a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.LOGO img {
+  height: 6rem; 
+  width: auto; 
+}
+.text1{
+font-size: 3rem;
+font-weight: 2rem;
+height: 5rem;
+color: grey;
+position: absolute;
+left:13rem;
+top:13rem;
+ font-family: 'Brush Script MT', cursive;
+text-shadow: 
+  0 0 5px #000000,
+  0 0 10px #000000,
+  0 0 20px #151014,
+  0 0 40px #000000;
+}
+.t1{
+height: 5rem;
+}
+.t2{
+margin-top:2.5rem;
+}
+.t1, .t2 {
+  height: auto; 
+  font-size: 2rem;
+  font-weight: bold;
+  color: #211f1f;
+  text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #b369a9,
+    0 0 40px #383538;
+}
+.nav {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.list-of-nav{
+  color:rgb(14, 11, 11);
+   text-shadow: 
+    0 0 5px #fff,
+    0 0 10px #000000,
+    0 0 20px #b369a9,
+    0 0 40px #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.list-of-nav a:hover {
+  color: #c139af;
+}
+.head{
+  grid-column: 1 / -1; 
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8b0000; 
+  margin-bottom: 0.5rem;
+  text-decoration:double underline ;
+}
+.extras {
+  width: 100%;
+  min-height: 25rem;
+  background-color: rgb(10, 12, 23);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-items: center;
+}
+.ext1 img, .ext2 img, .ext3 img, .ext4 img, .ext5 img, .ext6 img {
+  width: 13rem; 
+  height: 18rem;
+  max-width:13rem; 
+  margin-top: 0%;
+}
+.ext1:hover,.ext2:hover,.ext3:hover,.ext4:hover,.ext5:hover,.ext6:hover {
+  transform: rotate(2deg) translateY(-3px);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.Promise{
+  width:100%;
+  height: 35rem;
+  background-color: #966F33;
+}
+.imageof img{
+  width: 30rem;
+  height: 35rem;
+  background-color: purple;
+  margin-top: 0;
+}
+.textof{
+  width: 30rem;
+  height: 35rem;
+  background-color: black;
+  margin-right: 2rem;
+}
+.specialities {
+  width: 100%;
+  height: 28rem;
+  background-color: rgb(10, 12, 23);
+
+}
+.es{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.title1{
+  font-size: 5rem;
+  color: white;
+}
+.e1, .e2, .e3, .e4, .e5, .e6 {
+  width: 15rem; 
+  height: 18rem;
+  background-color: blue;
+  max-width: 18rem; 
+  margin-top:1rem;
+  background-blend-mode: blue;
+}
+.footer{
+  width: 100%;
+  height: 5rem;
+  background-color: #966F33;
+  list-style: none;
+}
+.detail1, .detail2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+.e1 img,.e2 img,.e3 img,.e4 img,.e5 img{
+   width: 100%; 
+  height: 100%;
+  overflow: hidden;
+}
+.quoteby{
+   font-size: smaller;
+     font-family: 'Brush Script MT', cursive;
+     position: absolute;
+     top:2.3rem;
+}
+.Promise{
+  display: flex;
+  gap:1rem;
+}
+.promise-text-heading{
+  font-size: 6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.WhoWeAre{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  font-style: italic;
+  font-size: 2rem;
+  margin-left: 31rem;
+  margin-top: 7rem;
+}

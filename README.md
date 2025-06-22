@@ -78,6 +78,8 @@ Styled the calculator (grid layout, hover effects, responsive design).
 Browser Developer Tools:
 Used for debugging and testing responsiveness.
 
+#Images are downloaded from Pinterest. 
+
 #Summary
 This landing page effectively creates a pirate-themed cafe experience through:
 Visual Design: Dark colors, weathered textures, and pirate imagery
